@@ -14,5 +14,10 @@ namespace ConsoleApp1
       Console.SetCursorPosition(x, y);
       Console.WriteLine(c);
     }
+
+    public Point(int a, int b, char sym)
+    {
+      x = a; y = b; c = sym;
+    }
   }
 }
